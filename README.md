@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Charan Pagadala</h1>
 <h3 align="center">MERN Stack & Backend Developer | Passionate About Scalable Solutions & Cloud Infrastructure</h3>
 
-- 🌱 I’m currently learning **Advanced Nodejs** , **Data Structures and Algorithms**
+- 🌱 I’m currently learning **Advanced Nodejs**
 
 - 📫 How to reach me **charanpagadala2004@gmail.com**
 
@@ -19,3 +19,5 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=charanpagadala07&show_icons=true&locale=en&layout=compact" alt="charanpagadala07" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=charanpagadala07&show_icons=true&locale=en" alt="charanpagadala07" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=charanpagadala07&" alt="charanpagadala07" /></p>
