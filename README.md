@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Charan Pagadala</h1>
-<h3 align="center">MERN Stack & Backend Developer | Passionate About Scalable Solutions & Cloud Infrastructure</h3>
+<h3 align="center">Java Developer | Core Java | Advanced Java | Spring Boot | System Design | Former MERN Developer Intern @ Starkinsolutions</h3>
 
-- 🌱 I’m currently learning **Advanced Nodejs**
+- 🌱 I’m currently learning **Advanced Java and System Design**
 
 - 📫 How to reach me **charanpagadala2004@gmail.com**
 
