@@ -24,8 +24,7 @@ I started my development journey with full-stack technologies and gained industr
 
 Currently, I'm focused on strengthening my expertise in **Java, Spring Boot, Microservices, SQL, and System Design**, while exploring distributed systems, secure API development, and AI integration.
 
-- 🎓 B.Tech in CSE (AI & ML), TKR College of Engineering, Hyderabad
-- 💼 Former Full Stack Developer Intern at Starkin Solutions
+- 🎓 B.Tech in CSE (AI & ML), TKR College of Engineering, Hyderabad.
 - ☕ Focused on Java, Spring Boot, Spring Security, and backend engineering
 - 🏗️ Interested in microservices, distributed systems, LLD, and HLD
 - 🤖 Building AI-powered applications using LLM APIs and machine learning
@@ -67,14 +66,6 @@ React.js • HTML5 • CSS3
 
 ### System Design & Architecture
 
-- Object-Oriented Programming and Design Patterns
-- Low-Level Design (LLD) and High-Level Design (HLD)
-- Microservices Architecture
-- API Design and Integration
-- JWT, RBAC, and Keycloak
-- Service Discovery and Centralized Configuration
-- Asynchronous Messaging
-
 ### Cloud & DevOps
 <p>
   <img src="https://skillicons.dev/icons?i=aws,azure,docker,kubernetes,jenkins,linux,git,github" alt="Cloud and DevOps tools" />
@@ -98,22 +89,11 @@ IntelliJ IDEA • VS Code • Postman
 ## 📚 Currently Learning
 
 - ☕ Advanced Java and enterprise application development
-- 🌱 Spring Boot, Spring Security, and Spring Data JPA
-- 🏛️ System Design, SOLID principles, and design patterns
 - 🗄️ SQL optimization, database indexing, and transaction management
 - 🔄 Microservices communication, messaging, and fault tolerance
 - 🧪 Backend testing, debugging, and clean architecture
 - ☁️ Cloud deployment and containerized applications
 
----
-
-## 🎓 Education
-
-**Bachelor of Technology — Computer Science & Engineering (AI & ML)**
-
-TKR College of Engineering, Hyderabad
-
-**Graduation:** 2026 | **CGPA:** 8.59 / 10.00
 
 ---
 
