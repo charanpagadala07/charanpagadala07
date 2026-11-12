@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="340" viewBox="0 0 1200 340" role="img"
+     aria-labelledby="title desc">
+  <title id="title">Charan Pagadala — Software Developer</title>
+  <desc id="desc">Animated oxblood and copper engineering-themed banner with subtle circuit traces.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21090B"/>
+      <stop offset=".48" stop-color="#4A1714"/>
+      <stop offset="1" stop-color="#17090C"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8D3D2B"/>
+      <stop offset=".48" stop-color="#E0B78D"/>
+      <stop offset="1" stop-color="#8D3D2B"/>
+      <animate attributeName="x1" values="-1;1;-1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2;0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#C77A55" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#C77A55" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grain" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="18" r="1" fill="#E8C9A8" opacity=".10"/>
+      <circle cx="76" cy="44" r=".8" fill="#E8C9A8" opacity=".08"/>
+      <circle cx="44" cy="96" r=".7" fill="#E8C9A8" opacity=".07"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#grain)"/>
+  <ellipse cx="930" cy="150" rx="340" ry="260" fill="url(#glow)"/>
+  <path d="M0 278 C250 220 390 350 650 278 S1000 210 1200 270"
+        fill="none" stroke="#B66B4C" stroke-opacity=".22" stroke-width="1.5"/>
+  <path d="M0 294 C250 236 390 366 650 294 S1000 226 1200 286"
+        fill="none" stroke="#E8D1B5" stroke-opacity=".10" stroke-width="1"/>
+
+  <!-- Circuit traces -->
+  <g fill="none" stroke="#C98261" stroke-width="1.5" stroke-opacity=".42">
+    <path d="M760 0 V48 H840 V82 H930"/>
+    <path d="M875 0 V30 H970 V65 H1080 V110"/>
+    <path d="M1200 155 H1110 V190 H1030 V225 H950"/>
+    <path d="M1200 255 H1140 V285 H1050"/>
+    <path d="M690 340 V300 H760 V270 H830"/>
+    <path d="M1010 340 V310 H930 V280"/>
+    <path d="M0 78 H90 V112 H155"/>
+    <path d="M0 230 H70 V198 H140 V170"/>
+  </g>
+  <g fill="#E8C49D" filter="url(#softGlow)">
+    <circle cx="930" cy="82" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="110" r="3"><animate attributeName="opacity" values="1;.2;1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="225" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="830" cy="270" r="3"><animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="155" cy="112" r="2.5"><animate attributeName="opacity" values=".2;1;.2" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Moving signal along a circuit -->
+  <circle r="4" fill="#F0C9A4" filter="url(#softGlow)">
+    <animateMotion dur="7s" repeatCount="indefinite"
+      path="M760 0 V48 H840 V82 H930"/>
+  </circle>
+  <circle r="3.5" fill="#D58C68" filter="url(#softGlow)">
+    <animateMotion dur="8.5s" repeatCount="indefinite"
+      path="M1200 155 H1110 V190 H1030 V225 H950"/>
+  </circle>
+
+  <!-- Editorial label and title -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="92" y="92" fill="#D7A17F" font-size="13" letter-spacing="4">
+      SOFTWARE ENGINEERING  /  01
+    </text>
+    <text x="88" y="165" fill="#F5E9DC" font-size="53" font-weight="700"
+          letter-spacing="1.5">CHARAN PAGADALA</text>
+    <rect x="92" y="190" width="110" height="3" rx="1.5" fill="url(#shine)">
+      <animate attributeName="width" values="70;150;70" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="92" y="232" fill="#E8C5AA" font-size="17" letter-spacing="2.2">
+      JAVA  ·  SPRING BOOT  ·  MICROSERVICES
+    </text>
+    <text x="92" y="263" fill="#C99B83" font-size="13" letter-spacing="2">
+      SYSTEM DESIGN  /  BACKEND ENGINEERING
+    </text>
+  </g>
+
+  <!-- Corner marker -->
+  <g transform="translate(1080 235)" fill="none" stroke="#D6B18D" stroke-opacity=".75">
+    <circle r="34" stroke-width="1"/>
+    <circle r="25" stroke-width=".7" stroke-dasharray="3 5">
+      <animateTransform attributeName="transform" type="rotate"
+        from="0" to="360" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M-11 0 H11 M0 -11 V11" stroke-width="1.2"/>
+    <circle r="4" fill="#D6B18D" stroke="none">
+      <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x=".75" y=".75" width="1198.5" height="338.5" rx="21.25"
+        fill="none" stroke="#C98261" stroke-opacity=".38" stroke-width="1.5"/>
+</svg>

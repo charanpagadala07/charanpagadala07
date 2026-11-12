@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Charan Pagadala — Royal Gothic Software Developer</title>
+<desc id="desc">An animated oxblood and antique-gold French Gothic palace banner with glowing arches, drifting candlelit particles, a rotating fleur-de-lis crest and a moving gold shimmer.</desc>
+<defs>
+  <linearGradient id="velvet" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#100609"/><stop offset=".42" stop-color="#3B0D18"/><stop offset=".72" stop-color="#240810"/><stop offset="1" stop-color="#090508"/>
+    <animate attributeName="x1" values="0;1;0" dur="18s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#76502B"/><stop offset=".22" stop-color="#D6B46A"/><stop offset=".48" stop-color="#FFF0B8"/><stop offset=".72" stop-color="#B88A45"/><stop offset="1" stop-color="#76502B"/>
+    <animate attributeName="x1" values="-1;1;-1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;2;0" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="candle">
+    <stop offset="0" stop-color="#F8D98B" stop-opacity=".28"/><stop offset="1" stop-color="#D6A64B" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="curtain" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#12060A"/><stop offset=".5" stop-color="#651A2B"/><stop offset="1" stop-color="#16070C"/>
+  </linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+  <clipPath id="round"><rect width="1200" height="390" rx="22"/></clipPath>
+  <g id="fleur" fill="url(#gold)" stroke="#F4DDA0" stroke-width="1.2">
+    <path d="M0,-43 C-17,-29 -17,-13 0,-5 C17,-13 17,-29 0,-43Z"/>
+    <path d="M-4,-8 C-31,-30 -42,-15 -30,1 C-21,12 -10,8 -4,-8Z"/>
+    <path d="M4,-8 C31,-30 42,-15 30,1 C21,12 10,8 4,-8Z"/>
+    <path d="M0,-3 C-18,11 -15,28 0,42 C15,28 18,11 0,-3Z"/>
+    <path d="M-27,7 Q0,20 27,7 L21,14 Q0,27 -21,14Z"/>
+    <circle cy="0" r="4" fill="#FFF0B8"/>
+  </g>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="1200" height="390" fill="url(#velvet)"/>
+  <ellipse cx="600" cy="160" rx="500" ry="300" fill="url(#candle)"/>
+  <!-- velvet side drapes -->
+  <path d="M0 0H180 Q120 95 170 210 Q115 300 205 390H0Z" fill="url(#curtain)" opacity=".72"/>
+  <path d="M1200 0H1020 Q1080 95 1030 210 Q1085 300 995 390H1200Z" fill="url(#curtain)" opacity=".72"/>
+  <path d="M0 0Q70 80 40 190T80 390M1200 0Q1130 80 1160 190T1120 390" fill="none" stroke="#B88A45" stroke-opacity=".38" stroke-width="2"/>
+  <!-- gothic arch framework -->
+  <path d="M310 390V178 Q310 55 600 22 Q890 55 890 178V390" fill="none" stroke="#8B6535" stroke-width="2" opacity=".65"/>
+  <path d="M330 390V180 Q330 75 600 42 Q870 75 870 180V390" fill="none" stroke="url(#gold)" stroke-width="3" opacity=".8"/>
+  <path d="M365 390V188 Q365 98 600 68 Q835 98 835 188V390" fill="none" stroke="#D6B46A" stroke-width="1" opacity=".3"/>
+  <path d="M310 210H890M340 228H860" stroke="#D6B46A" stroke-opacity=".24"/>
+  <!-- tracery and columns -->
+  <g fill="none" stroke="#C29A55" stroke-opacity=".48" stroke-width="1.5">
+    <path d="M310 250L360 215L410 250L460 215L510 250L560 215L600 245L640 215L690 250L740 215L790 250L840 215L890 250"/>
+    <path d="M350 390V260M390 390V265M810 390V265M850 390V260"/>
+    <path d="M350 275Q370 255 390 275M810 275Q830 255 850 275"/>
+    <path d="M420 390V310M780 390V310"/>
+  </g>
+  <g fill="url(#candle)" filter="url(#soft)">
+    <circle cx="260" cy="190" r="60"><animate attributeName="opacity" values=".35;.8;.35" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="190" r="60"><animate attributeName="opacity" values=".8;.3;.8" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- central crest and orbit -->
+  <g transform="translate(600 112)">
+    <circle r="55" fill="#16070C" fill-opacity=".65" stroke="#9E783F" stroke-width="1.5"/>
+    <circle r="48" fill="none" stroke="url(#gold)" stroke-width="1.4" stroke-dasharray="3 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="38s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <use href="#fleur"/>
+      <animateTransform attributeName="transform" type="rotate" values="-5;5;-5" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <path d="M-65 0H-52M52 0H65M0 -65V-54M0 54V65" stroke="#D6B46A" stroke-width="1.5"/>
+  </g>
+  <!-- tiny candlelit motes -->
+  <g fill="#F5D88E" filter="url(#glow)">
+    <circle cx="210" cy="80" r="2"><animate attributeName="cy" values="80;45;80" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="270" cy="300" r="2.2"><animate attributeName="cy" values="300;260;300" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.25;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="965" cy="95" r="2"><animate attributeName="cy" values="95;55;95" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".25;1;.25" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="300" r="2"><animate attributeName="cy" values="300;255;300" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.2;1" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="205" r="1.7"><animate attributeName="cy" values="205;170;205" dur="7.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="205" r="1.7"><animate attributeName="cy" values="205;165;205" dur="8.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- ornamental corner flourishes -->
+  <g fill="none" stroke="url(#gold)" stroke-width="1.8" opacity=".8">
+    <path d="M35 65Q35 35 65 35H150M35 65V125M35 65Q65 65 65 95Q65 120 95 120"/>
+    <path d="M1165 65Q1165 35 1135 35H1050M1165 65V125M1165 65Q1135 65 1135 95Q1135 120 1105 120"/>
+    <path d="M35 325Q35 355 65 355H150M35 325V265M1165 325Q1165 355 1135 355H1050M1165 325V265"/>
+  </g>
+  <!-- title -->
+  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <text x="600" y="238" font-size="13" letter-spacing="7" fill="#D8B875">THE WORKS OF</text>
+    <text x="600" y="292" font-size="48" font-weight="bold" letter-spacing="2" fill="#F4E7C8">CHARAN PAGADALA</text>
+    <text x="600" y="326" font-size="14" letter-spacing="4" fill="#D6B46A">SOFTWARE DEVELOPER  ·  JAVA  ·  BACKEND ENGINEERING</text>
+  </g>
+  <!-- traveling light sweep -->
+  <path d="M-180 0L-60 0L330 390H210Z" fill="#FFF0B8" opacity=".07">
+    <animateTransform attributeName="transform" type="translate" values="-500 0;1500 0" dur="11s" repeatCount="indefinite"/>
+  </path>
+  <path d="M60 366H1140" stroke="url(#gold)" stroke-width="1.4" opacity=".65"/>
+</g>
+</svg>

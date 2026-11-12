@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="t d">
+<title id="t">Royal Gothic footer</title><desc id="d">An animated oxblood velvet footer with antique-gold waves, candlelit particles and a moving shimmer.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#100609"/><stop offset=".5" stop-color="#45101E"/><stop offset="1" stop-color="#100609"/></linearGradient>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#76502B"/><stop offset=".5" stop-color="#F3D991"/><stop offset="1" stop-color="#76502B"><animate attributeName="offset" values="1;.5;1" dur="6s" repeatCount="indefinite"/></stop></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="170" fill="url(#bg)"/>
+<path d="M0 34Q180 95 360 35T720 35T1080 35T1440 35" fill="none" stroke="#9C713B" stroke-width="1.5" opacity=".6">
+ <animate attributeName="d" values="M0 34Q180 95 360 35T720 35T1080 35T1440 35;M0 45Q180 -5 360 45T720 45T1080 45T1440 45;M0 34Q180 95 360 35T720 35T1080 35T1440 35" dur="12s" repeatCount="indefinite"/>
+</path>
+<path d="M0 48Q180 110 360 48T720 48T1080 48T1440 48" fill="none" stroke="url(#g)" stroke-width="2"/>
+<g fill="#F4D991" filter="url(#glow)">
+ <circle cx="130" cy="105" r="2"><animate attributeName="cy" values="105;75;105" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+ <circle cx="350" cy="130" r="2"><animate attributeName="cy" values="130;90;130" dur="8s" repeatCount="indefinite"/></circle>
+ <circle cx="850" cy="105" r="2"><animate attributeName="cy" values="105;65;105" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></circle>
+ <circle cx="1070" cy="125" r="2"><animate attributeName="cy" values="125;80;125" dur="7.5s" repeatCount="indefinite"/></circle>
+</g>
+<g text-anchor="middle" font-family="Georgia,serif" fill="#E8D5A8">
+ <text x="600" y="105" font-size="13" letter-spacing="6">AD MAIORA</text>
+ <text x="600" y="132" font-size="10" letter-spacing="3" fill="#B9975B">JAVA  ·  BACKEND  ·  SYSTEM DESIGN</text>
+</g>
+<path d="M-120 0L-40 0L190 170H110Z" fill="#FFF0B8" opacity=".08"><animateTransform attributeName="transform" type="translate" values="-300 0;1500 0" dur="13s" repeatCount="indefinite"/></path>
+<path d="M45 155H1155" stroke="url(#g)" opacity=".65"/>
+</svg>
