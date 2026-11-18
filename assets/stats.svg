@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="215" viewBox="0 0 495 215" role="img" aria-label="GitHub activity summary">
+<style>
+:root{--bg:#0d1117;--border:#30363d;--fg:#e6edf3;--muted:#8b949e;--track:#21262d;--accent:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#ffffff;--border:#d0d7de;--fg:#1f2328;--muted:#656d76;--track:#eaeef2;--accent:#0969da}}
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.title{font-size:15px;font-weight:600;fill:var(--fg)}
+.label{font-size:11px;fill:var(--muted);letter-spacing:.4px;text-transform:uppercase}
+.value{font-size:24px;font-weight:600;fill:var(--fg)}
+.lang{font-size:12px;fill:var(--fg)}
+.pct{font-size:12px;fill:var(--muted)}
+.sub{font-size:11px;fill:var(--muted)}
+</style>
+<rect x=".5" y=".5" width="494" height="214" rx="10" fill="var(--bg)" stroke="var(--border)"/>
+<text class="title" x="28" y="36">GitHub Activity</text>
+<text class="sub" x="467" y="36" text-anchor="end">@charanpagadala07</text>
+<line x1="28" y1="48" x2="467" y2="48" stroke="var(--border)"/>
+<text class="value" x="28" y="78">160</text><text class="label" x="28" y="96">Commits (12 mo)</text><text class="value" x="178" y="78">0</text><text class="label" x="178" y="96">Pull requests</text><text class="value" x="328" y="78">0</text><text class="label" x="328" y="96">Issues</text><text class="value" x="28" y="140">0</text><text class="label" x="28" y="158">Stars earned</text><text class="value" x="178" y="140">24</text><text class="label" x="178" y="158">Public repos</text><text class="value" x="328" y="140">3</text><text class="label" x="328" y="158">Followers</text>
+</svg>
